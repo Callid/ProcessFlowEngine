@@ -1,0 +1,5 @@
+!!main.flowLoader
+-  name: helloWorldFlow
+   queue: default
+   steps: 
+     - helloWorld

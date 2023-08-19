@@ -1,0 +1,3 @@
+!!main.stepLoader
+-  name: helloWorld
+   className: main.step.HelloWorld
