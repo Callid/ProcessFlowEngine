@@ -5,4 +5,5 @@ package main
  */
 @groovy.transform.CompileStatic
 class Main {
+
 }
