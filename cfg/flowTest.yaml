@@ -1,27 +1,14 @@
-flows: 
+!!main.Flows
+flows:
+-  name: flightProcessor
+   queue: com.acme.flightProcessor
+   steps: 
+     - transformFlightTime
+     - validateAirport
+     - checkFlightNotCancelled
+     - logVerifiedFlight
 
-    flow: 
-
-        name: flightProcessor
-
-        queue: com.acme.flightProcessor
-
-        steps: 
-
-            - transformFlightTime
-
-            - validateAirport
-
-            - checkFlightNotCancelled
-
-            - logVerifiedFlight
-
-    flow: 
-
-        name: logAnalyzer
-
-        queue: com.acme.analyzer
-
-        steps: 
-
-            - doSomething
+-  name: logAnalyzer
+   queue: com.acme.analyzer
+   steps: 
+     - doSomething

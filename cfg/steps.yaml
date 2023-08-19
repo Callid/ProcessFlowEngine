@@ -1,3 +1,7 @@
-!!main.stepLoader
+!!main.step.StepLoader
+steps:
 -  name: helloWorld
+   className: main.step.HelloWorld
+
+-  name: helloWorld2
    className: main.step.HelloWorld

@@ -1,0 +1,14 @@
+!!main.Flow
+name: flightProcessor
+
+queue: com.acme.flightProcessor
+
+steps: 
+
+- transformFlightTime
+
+- validateAirport
+
+- checkFlightNotCancelled
+
+- logVerifiedFlight

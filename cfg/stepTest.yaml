@@ -1,7 +1,3 @@
 steps: 
-
-    step:
-
-        name: transformFlightTime
-
-        class: com.acme.steps.FlightTimeTransformer
+-  name: transformFlightTime
+   className: com.acme.steps.FlightTimeTransformer
