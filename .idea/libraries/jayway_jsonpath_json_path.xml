@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="jayway.jsonpath.json.path" type="repository">
+    <properties maven-id="com.jayway.jsonpath:json-path:2.8.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/json-path-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-smart-2.4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/accessors-smart-2.4.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.36.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/json-path-2.8.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-smart-2.4.10-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/accessors-smart-2.4.9-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-9.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.36-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/json-path-2.8.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-smart-2.4.10-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/accessors-smart-2.4.9-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-9.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.36-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

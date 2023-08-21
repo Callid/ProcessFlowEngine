@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact name="ProcessFlowEngine:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProcessFlowEngine_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ProcessFlowEngine.jar">
+        <element id="module-output" name="ProcessFlowEngine" />
+      </element>
+      <element id="library" level="project" name="jayway.jsonpath.json.path" />
+      <element id="library" level="application" name="yaml.snakeyaml" />
+      <element id="library" level="project" name="groovy-4.0.2" />
+      <element id="directory" name="cfg">
+        <element id="dir-copy" path="$PROJECT_DIR$/cfg" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/PFE.bat" />
+    </root>
+  </artifact>
+</component>

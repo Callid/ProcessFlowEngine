@@ -1,6 +1,8 @@
 package main
 
+import com.jayway.jsonpath.*
 import main.step.*
+import net.minidev.json.JSONArray
 import org.yaml.snakeyaml.Yaml
 
 /**
@@ -17,9 +19,12 @@ class Main {
         StepLoader sc = StepLoader.loadFromFile(STEP_CONFIG)
         Step[] steps = sc.loadSteps()
         steps[0].execute()
+
+        testYAML()
+        testJSON()
     }
 
-    static void test() {
+    static void testYAML() {
         Map<String,Object> map = loadYamlString("cfg/stepTest.yaml")
         for(String s in map.keySet()) {
             println("${map[s].class}: $s = ${map[s]}")
@@ -52,6 +57,15 @@ class Main {
         println(flowArray)
 
         print(getYaml(flows))
+    }
+
+    static void testJSON() {
+        InputStream inputStream = new FileInputStream(new File(("cfg/test.json")))
+        DocumentContext dc = JsonPath.parse(inputStream)
+        String s = dc.read("tool.jsonpath.creator.name", List)
+        Object l = dc.read("tool.jsonpath.creator.location.*", Step)
+        println(l)
+        println(s)
     }
 
     static Map<String,Object> loadYamlString(String filename) {

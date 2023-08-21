@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Main-Class: main.Main
+Class-Path: json-path-2.8.0.jar json-smart-2.4.10.jar accessors-smart-2.
+ 4.9.jar asm-9.3.jar slf4j-api-1.7.36.jar snakeyaml-1.33.jar groovy-macr
+ o-library-4.0.2.jar groovy-nio-4.0.2.jar groovy-astbuilder-4.0.2.jar gr
+ oovy-dateutil-4.0.2.jar groovy-datetime-4.0.2.jar groovy-json-4.0.2.jar
+  groovy-ant-4.0.2.jar groovy-docgenerator-4.0.2.jar groovy-cli-picocli-
+ 4.0.2.jar groovy-test-junit5-4.0.2.jar groovy-groovydoc-4.0.2.jar groov
+ y-test-4.0.2.jar groovy-jmx-4.0.2.jar groovy-sql-4.0.2.jar groovy-contr
+ acts-4.0.2.jar groovy-macro-4.0.2.jar groovy-toml-4.0.2.jar groovy-temp
+ lates-4.0.2.jar groovy-typecheckers-4.0.2.jar groovy-cli-commons-4.0.2.
+ jar groovy-jsr223-4.0.2.jar groovy-servlet-4.0.2.jar groovy-console-4.0
+ .2.jar groovy-xml-4.0.2.jar groovy-ginq-4.0.2.jar groovy-groovysh-4.0.2
+ .jar groovy-swing-4.0.2.jar groovy-testng-4.0.2.jar groovy-4.0.2.jar
+
